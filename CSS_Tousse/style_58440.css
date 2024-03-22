@@ -1,0 +1,55 @@
+header{
+    text-align: center;
+ 
+}
+header h1{
+    color: rgb(5, 33, 145);
+}
+h2{
+    color: green;
+}
+body {
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    margin: 20px 0;
+}
+h1{
+    text-align: center;
+    color: rgb(192, 8, 30);
+}
+#results {
+    display: flex;
+    justify-content: center;
+}
+
+.counter {
+    margin: 0 20px;
+}
+.number {
+    display: inline-block;
+    font-size: 36px;
+    width: 100px;
+    height: 100px;
+    margin: 0 20px;
+    border: 2px solid #333;
+    cursor: pointer;
+}
+
+.image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.links {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;   
+}
+.links a {
+    color: brown;  
+}
+

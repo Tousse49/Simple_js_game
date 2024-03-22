@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie Club</title>
+    <link rel="stylesheet" href="/CSS_Tousse/style_58440.css">
+</head>
+<body>
+    <header>
+        <h1>Tousse Hamza 58440, Movie club</h1>
+        <h2>This is the Audio/image page</h2>
+        <a href="/Html_Tousse/indexTousse.html">Go to Home page</a><br><br>
+        <a href="/Html_Tousse/gameTousse.html">Go to game page</a>
+    </header>
+
+    <section id="Start">
+        <label for="choice">Choose what to draw:</label>
+        <select id="choice">
+            <option value="image">Image</option>
+            <option value="sound">Sound</option>
+        </select>
+        <label for="player_name">Enter your name:</label>
+        <input type="text" id="player_name" placeholder="Tousse Hamza">
+        <label for="question_count">Number of questions:</label>
+        <select id="question_count">
+            <option value="5">5</option>
+            <option value="10">10</option>
+            <option value="15">15</option>
+        </select>
+        <button id="start_game">Start Game</button>
+    </section>
+
+    <section id="images" style="display: none">
+
+    </section>
+
+    <section id="audio" style="display: none">
+        <audio id="audio-player" controls loop >
+            <source src="/Audio_Tousse/hello.mp3" type="audio/mpeg" >
+            
+        </audio>
+        <label for="select_image">Select the right image:</label>
+        <select id="select_image">
+            <option value="image1">Scarface</option>
+            <option value="image2">Godfather</option>
+            <option value="image3">Goofellas</option>
+        </select>
+        <button id="confirm_sound_selection">Confirm Selection</button>
+    </section>
+
+    <section id="end" style="display: none">
+       
+    </section>
+
+    <button id="confirm_choice">Confirm Choice</button>
+    
+    <footer style="text-align: center;">
+        &copy; Vistula Tousse
+    </footer>
+    <script src="/JS_Tousse/scripts_58440.js"></script>
+</body>
+</html>
